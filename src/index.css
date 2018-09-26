@@ -1,0 +1,17 @@
+.title {
+    font-family: 'Anton', sans-serif !important;
+    font-size: 35px;
+}
+.blurb-image {
+    margin-top: -15px;
+} 
+
+.blurb-header {
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+}
