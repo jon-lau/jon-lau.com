@@ -15,3 +15,43 @@
     font-size: 60px;
     font-weight: bold;
 }
+
+.section{    
+    padding: 50px;
+    font-family: ubuntu;
+}
+
+.lightGray{
+    background-color:#F6F6F6;
+}
+
+.title{
+    font-size: 50px !important;
+    font-family: ubuntu;
+}
+
+.contentText{
+    font-size: 30px;
+}
+
+.cardTitle{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.cardText{
+    padding:0px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.card{
+    width: 1000px !important;
+    margin: 100px !important;
+    background-color: white;
+}
+
+.cardImage{
+    height: auto !important;
+    width: 200% !important;
+    padding: 20px;
+}

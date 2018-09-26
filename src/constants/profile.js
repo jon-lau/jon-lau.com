@@ -1,0 +1,5 @@
+export const name = "Jonathan H. Lau"
+export const linkedin = "https://www.linkedin.com/in/jon-lau/"
+export const github = "https://github.com/jon-lau"
+export const email = "laujh@hawaii.edu"
+export const intro = "Welcome! Hi my name is Jonathan Lau and I am studying computer engineering at the University of Hawaii at Manoa. Over the past few years I have obtained experience and fluency in multiple programming languages and have developed excellent problem solving skills."
