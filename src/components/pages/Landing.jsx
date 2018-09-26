@@ -1,7 +1,10 @@
 import React from 'react';
 import { withRouter } from 'react-router';
-import { Menu, Container, Image, Icon, Header, Card, Grid } from 'semantic-ui-react'
+import { Menu, Container, Image, Icon, Header, Card, Button } from 'semantic-ui-react'
 import { name, linkedin, github, email, intro } from '../../constants/profile';
+import { Projects } from '../../constants/projects';
+import  Project  from '../components/Project'
+
 
 
 class Landing extends React.Component {
@@ -56,29 +59,11 @@ class Landing extends React.Component {
           <Container textAlign='center'>
             <Header className='title'>Featured Work</Header>
             <Card.Group>
-              <Card className="card">
-                <Grid verticalAlign='middle' columns={2}>
-                  <Grid.Column>
-                    <Image className="cardImage" fluid src='/images/micromouse.jpg' />
-                  </Grid.Column>
-                  <Grid.Column className='cardContent'>
-                    <p className='cardTitle'>Micromouse</p>
-                    <p className='cardText'>Micromouse is a competition which tasks teams to design and program an autonomous (mouse) robot to find the fastest path to the center of a 16 by 16 cell maze. The objective of this project is to produce a micromouse which can perform at a high level of competition.</p>
-                  </Grid.Column>
-                </Grid>
-              </Card>
-              <Card className="card">
-                <Grid verticalAlign='middle' columns={2}>
-                  <Grid.Column>
-                    <Image className="cardImage" fluid src='/images/micromouse.jpg' />
-                  </Grid.Column>
-                  <Grid.Column className='cardContent'>
-                    <p className='cardTitle'>Micromouse</p>
-                    <p className='cardText'>Micromouse is a competition which tasks teams to design and program an autonomous (mouse) robot to find the fastest path to the center of a 16 by 16 cell maze. The objective of this project is to produce a micromouse which can perform at a high level of competition.</p>
-                  </Grid.Column>
-                </Grid>
-              </Card>
+              {Projects.map((project, index) =>
+                <Project key={index} project={project} />)}
             </Card.Group>
+            <Button fluid color='red'>See More</Button>
+
           </Container>
         </div>
       </div>
