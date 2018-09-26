@@ -2,7 +2,7 @@
   "name": "react-template",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://jon-lau.github.io/portfolio",
+  "homepage": "https://jon-lau.com",
   "scripts": {
     "start": "react-scripts start",
     "server": "nodemon server.js",
