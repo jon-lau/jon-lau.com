@@ -1,6 +1,3 @@
-/**
- * Created by Nathan on 7/27/2017.
- */
 (function(document) {
   var toggle = document.querySelector('.sidebar-toggle');
   var sidebar = document.querySelector('#sidebar');

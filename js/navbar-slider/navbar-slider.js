@@ -1,7 +1,3 @@
-/**
- * Created by Nathan on 4/12/2017.
- */
-
 $.getScript('/js/navbar-slider/jquery.min.js', function()
 {
 // Hide Header on on scroll down

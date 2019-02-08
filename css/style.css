@@ -209,7 +209,7 @@ li > ul {
   }
 
   /* FOOTER MOBILE */
-  .call.icon.mobile-footer, .map.icon.mobile-footer, .mail.icon.mobile-footer, .content.mail-footer, .content.address-footer, .content.call-footer  {
+  .call.icon.mobile-footer, .github.icon.mobile-footer, .mail.icon.mobile-footer, .content.mail-footer, .content.address-footer, .content.call-footer  {
     display: block !important;
     margin: auto !important;
   }
@@ -443,8 +443,8 @@ i.circular.icon {
   font-size: 1.5em;
 }
 
-.footer-background-layout-1 {
-  background: url('/images/footer/footer3.jpg') no-repeat center center fixed;
+.footer-background {
+  background: rgb(0, 0, 0);
   background-size: cover;
   height: auto;
   position: relative;
@@ -455,7 +455,6 @@ i.circular.icon {
   display: block;
   height: 100%;
   width: 100%;
-  opacity: 0;
   background: rgba(0, 0, 0, .5);
   -moz-transition: all 1s;
   -webkit-transition: all 1s;
@@ -483,14 +482,6 @@ i.circular.icon {
   font-size: 20px;
 }
 
-/*
-.ui.centered.image.uparrow {
-  width: 60px;
-  height: auto;
-  font-size: .85714286rem;
-  padding-top:35px;
-}
-*/
 
 #copyright-footer {
   margin-top: 25px;
@@ -498,10 +489,6 @@ i.circular.icon {
   color: #999;
   padding-bottom: 25px;
 }
-
-/* ========================================== */
-/* Blog Page */
-/* ========================================== */
 
 .ui.mini.tag.labels .ui.basic.label.blog-theme-3 {
   font-size: .78285714rem;

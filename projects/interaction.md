@@ -4,7 +4,7 @@ type: project
 image: ../images/Collaborative-Document/doc-1.jpg
 title: Collaborative Document 
 permalink: projects/collaborative-document
-date: 2017
+date: 2018
 labels:
   - C++
   - Object Oreinted Programming
