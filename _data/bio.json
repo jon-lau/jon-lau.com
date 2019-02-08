@@ -1,0 +1,170 @@
+{
+  "basics": {
+    "name": "Jonathan Lau",
+    "label": "Student",
+    "picture": "https://jon-lau.github.io/images/pic.jpg",
+    "email": "laujh@hawaii.edu",
+    "phone": "808-428-0683",
+    "website": "https://jon-lau.github.io",
+    "summary": "I am a senior in computer engineering at the University of Hawaii. I expect to graduate in Spring, 2019 & hope to pursue a career in software development.",
+    "location": {
+      "address": "2075 Leiloke Drive",
+      "postalCode": "96822",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "jon-lau",
+        "url": "http://github.com/jon-lau"
+      },
+      {
+        "network": "linkedin",
+        "username": "jonathan-h-lau",
+        "url": "https://www.linkedin.com/in/jonathan-h-lau/"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Internet of Things",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Python",
+        "React"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "MacOS",
+        "Git/GitHub",
+        "g++"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Engineering (expected Spring, 2019)",
+      "studyType": "B.S.",
+      "startDate": "2015-08-01",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "University of Hawaii",
+      "position": "Undergraduate Teaching Assistant",
+      "website": "",
+      "startDate": "2018-01-19",
+      "endDate": "Present",
+      "summary": "Teaching assistant for computer programming and modern computing environments in C",
+      "highlights": [
+        "Teaching a laboratory section that covers an introduction to C programming & basic software development skills",
+        "Hold office hours to assist students and grade laboratory assignments"
+      ]
+    },
+    {
+      "company": "Online Learning Academy",
+      "position": "Math & Science Tutor",
+      "website": "http://manoa.hawaii.edu/ola/",
+      "startDate": "2016-12-01",
+      "endDate": "Present",
+      "summary": "Online tutor to help assist students in K-12 & college level courses",
+      "highlights": [
+        "Assist students by simplifying math and science concepts while guiding students to think critically and solve problems",
+        " Work through an online interface while communicating through voice and text chat rooms"
+      ]
+    },
+    {
+      "company": "RevaComm",
+      "position": "Software Intern",
+      "website": "http://www.revacomm.com/",
+      "startDate": "2017-05-01",
+      "endDate": "2017-08-01",
+      "summary": "Software developer focused on product testing at RevaComm",
+      "highlights": [
+        "Setup end-to-end testing solution using nightwatch.js and selenium web driver for a browser based application",
+        "Wrote testing scripts using Javascript and CSS/Xpath selectors to monitor site usability and report malfunctions",
+        "Scripts reported issues for website overload, response times, functionality between versions, and memory storage",
+        "Wrote various utility scripts in Python to filter data output logs"
+      ]
+    },    {
+      "company": "Hawaii Space Flight Laboratory",
+      "position": "Engineering Intern",
+      "website": "https://www.hsfl.hawaii.edu/",
+      "startDate": "2014-06-01",
+      "endDate": "2014-08-01",
+      "summary": "Designed electromagnetic torque rods for a CubeSat",
+      "highlights": [
+        "Designed parts using Matlab and Solidworks programs",
+        "Worked in constructing various parts in a machine shop",
+        "Tested torque rods for efficiency and physical durability"
+
+      ]
+    }
+  ],
+  
+   "volunteer": [
+    {
+      "organization": "Micromouse",
+      "website": "",
+      "position": "Software Developer",
+      "startDate": "2017-08-01",
+      "endDate": "2017-12-01",
+      "summary": "Developer for firmware & algorithms of an autonomous robot",
+      "highlights": [
+        "Developed firmware in C for a STM32 microprocessor to drive DC motors with a closed-loop control system",
+        "Desiged and implemented flood-fill and tracking algorithms to solve a maze"
+      ]
+    },
+    {
+      "organization": "Smart Campus Energy Lab",
+      "website": "http://scel-hawaii.org/",
+      "position": "Software Developer",
+      "startDate": "2017-01-01",
+      "endDate": "2017-05-01",
+      "summary": "",
+      "highlights": [
+        "Designed and developed low-cost, accurate, and reliable environmental sensor modules",
+        "Developed firmware in Arduino for an ATmega328 microcontroller to retrieve sensor data"
+      ]
+    },
+  ],
+  
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}

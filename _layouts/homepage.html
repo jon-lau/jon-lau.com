@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="{{ page.lang | default: site.lang | default: en }}">
+
+{% include head.html %}
+
+<body>
+  {% include sidebar.html %}
+  {% include header.html %}
+
+  <!-- Wrap is the content to shift when toggling the sidebar. We content-cover the
+     content to avoid any CSS collisions with our real content. -->
+  <div style='margin-top:100px'>
+    <div class='ui container ' style='border-radius: 25px;padding: 30px;
+    background:-o-linear-gradient(top, #040429, #d0d8de);
+    background:-ms-linear-gradient(top, #040429, #d0d8de);
+    background:-moz-linear-gradient(top, #040429, #d0d8de);
+    background:-webkit-linear-gradient(top, #040429, #d0d8de);'>
+      <div class='ui container' >
+        <div class="ui centered grid ">
+          <div class="five wide column middle align">
+            <img class="ui center aligned centered circular medium image" src="/images/pic.jpg">
+
+
+          </div>
+
+        </div>
+
+        <div class='ui centered middle aligned '>
+          <h1 style="font-family: Ubuntu !important; font-size:60px" class="ui main header homepage">{{site.title}}</h1>
+
+          <p style="margin-top:0px;font-family: Ubuntu !important;" id="second-header">Senior in Computer
+            Engineering&nbsp;•&nbsp;
+            University of Hawaii at Manoa</p>
+          <div style="margin-top: 20px" id="navigation-links">
+            <a style="margin-right:7.5px" href="{{ site.github }}" target="_blank"><i
+                class="circular github icon homepage large"></i></a>
+            <a style="margin-right:7.5px; margin-left: 7.5px" href="{{ site.linkedin }}" target="_blank"><i
+                class="circular linkedin square icon large homepage"></i></a>
+            <a style="margin-right:7.5px; margin-left: 7.5px" href="{{ site.projects }}"><i
+                class="circular suitcase large icon homepage"></i></a>
+            <a style="margin-left: 7.5px" href="{{ site.mail }}" target="_blank"><i
+                class="circular mail large icon homepage"></i></a>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <script src="../js/sidebar/sidebar.js"></script> <!-- Sidebar -->
+</body>
+<script>
+  $('.ui.main.header.homepage')
+    .transition('hide')
+    .transition('fade up', '3000ms')
+    ;
+  $('#second-header')
+    .transition('hide')
+    .transition('fade up', '3000ms')
+    ;
+  $('.circular.github.icon')
+    .transition('hide')
+    .transition('fade up', '2000ms')
+    ;
+  $('.circular.linkedin.icon')
+    .transition('hide')
+    .transition('fade up', '2000ms')
+    ;
+  $('.circular.suitcase.icon')
+    .transition('hide')
+    .transition('fade up', '2000ms')
+    ;
+  $('.circular.mail.outline.icon')
+    .transition('hide')
+    .transition('fade up', '2000ms')
+    ;
+</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="../js/homepage/homepage.js"></script>
+
+</html>
