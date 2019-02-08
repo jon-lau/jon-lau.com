@@ -75,12 +75,24 @@
       "studyType": "B.S.",
       "startDate": "2015-08-01",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.69",
       "courses": [
       ]
     }
   ],
   "work": [
+    {
+      "company": "Ka'ala Systems Technology Corporation (AKM Technologies)",
+      "position": "Part-Time Web Developer",
+      "website": "",
+      "startDate": "2018-01-19",
+      "endDate": "Present",
+      "summary": "Developing company website",
+      "highlights": [
+        "Implementing new site content architecture and navigation scheme for company website redesign",
+        "Creating website using React and NodeJS focusing on content auto population components"
+      ]
+    },
     {
       "company": "University of Hawaii",
       "position": "Undergraduate Teaching Assistant",
@@ -94,11 +106,23 @@
       ]
     },
     {
+      "company": "RevaComm",
+      "position": "Software Intern",
+      "website": "http://www.revacomm.com/",
+      "startDate": "2018-05-01",
+      "endDate": "2018-08-01",
+      "summary": "Software developer focused on developing media player at RevaComm",
+      "highlights": [
+        "Led in the development of an HTML5 video player interface with an integrated presentation mode ",
+        "Designed and developed a graph generation page to parse and display data for comparison & analysis"
+      ]
+    }, 
+    {
       "company": "Online Learning Academy",
       "position": "Math & Science Tutor",
       "website": "http://manoa.hawaii.edu/ola/",
       "startDate": "2016-12-01",
-      "endDate": "Present",
+      "endDate": "2018-08-01",
       "summary": "Online tutor to help assist students in K-12 & college level courses",
       "highlights": [
         "Assist students by simplifying math and science concepts while guiding students to think critically and solve problems",
