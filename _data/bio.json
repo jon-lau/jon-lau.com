@@ -2,10 +2,10 @@
   "basics": {
     "name": "Jonathan Lau",
     "label": "Student",
-    "picture": "https://jon-lau.github.io/images/pic.jpg",
+    "picture": "/images/pic.jpg",
     "email": "laujh@hawaii.edu",
     "phone": "808-428-0683",
-    "website": "https://jon-lau.github.io",
+    "website": "http://jon-lau.com",
     "summary": "I am a senior in computer engineering at the University of Hawaii. I expect to graduate in Spring, 2019 & hope to pursue a career in software development.",
     "location": {
       "address": "2075 Leiloke Drive",

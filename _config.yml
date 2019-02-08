@@ -18,7 +18,7 @@ email: laujh@ieee.org
 description: > # this means to ignore newlines until "baseurl:"
   Jonathan Lau. Computer engineering student with a passion for embedded systems, scripting, and clean aesthetic interfaces.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jon-lau.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://jon-lau.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: jon-lau
 git_repo: jon-lau
 github: https://github.com/jon-lau
